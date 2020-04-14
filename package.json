@@ -1,0 +1,15 @@
+{
+  "name": "portfoliowebsite",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "multiscroll.js": "^0.2.2",
+    "pnltri": "^2.1.1"
+  }
+}
