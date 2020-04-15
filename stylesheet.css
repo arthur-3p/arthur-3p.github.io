@@ -24,11 +24,15 @@ p1{
 .titleRightOffset {
   position: relative;
   top: 150px;
-  left: 250px;
-  width: 300px;
+  right: 20px;
 }
 .paraLeft {
   position: relative;
   top: 100px;
-  left: 150px;
+  left: 20px;
+}
+.linksRight {
+  position: absolute;
+  top: 100px;
+  right: 25px;
 }
