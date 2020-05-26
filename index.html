@@ -4,75 +4,29 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="icon" href="">
-        <!-- ^Icon!^ -->
+        <meta name="description" content="Arthur Wilson.
+        Audio interaction designer and artist.
+        Recorded, performable and interactive audio experiences.">
+        <meta name="author" content="Arthur JN Wilson">
+        <link rel="icon" href="images/favicon-32x32.png">
         <title>Arthur Wilson</title>
-        <!-- Google Font -->
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Carrois Gothic'>
-        <!-- Custom styles for this template -->
-        <link href="stylesheet.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="jquery.multiscroll.css" />
-        <script src="jquery.easings.min.js"></script>
-        <script type="text/javascript" src="jquery.multiscroll.js"></script>
+        <link href="style/stylesheet.css" rel="stylesheet">
+        <script src="./scripts/animation.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.js"></script>
     </head>
     <body>
-      <div id="multiscroll">
-        <div class="ms-left">
-            <div class="ms-section"></div>
-              <div class="ms-section">
-                <p1 class="paraLeft">Born in Ireland and currently based in London,
-                  <br> <span style="font-size:40px; letter-spacing:6px">Arthur Wilson </span>is an audio artist,
-                  <br>electronic musician and audio interaction designer.
-                  <br>Primarily using the computer program
-                  <br><span style="font-size:50px; letter-spacing:8px;">SuperCollider</span>
-                  <br>Arthur creates fixed, performable and interactive
-                  <br>audio experiences for installations and
-                  <br>live performances. He is currently studying his
-                  <br>Masters in
-                  <br><span style="font-size:30px; letter-spacing:4px;">Information Experience Design</span>
-                  <br>at the
-                  <br><span style="font-size:25px; letter-spacing:4px">School of Communication</span>
-                  <br><span style="font-size:35px; letter-spacing:6px">Royal College of Art.</span></p1>
-              </div>
-        </div>
-        <div class="ms-right">
-          <div class="ms-section">
-            <h1 class="titleRight">Arthur Wilson</h1>
-            <h2 class="titleRightOffset">Interaction Designer</h2>
-            <h2 class="titleRightOffset">Creative Technologist</h2>
-            <h2 class="titleRightOffset" >Audio Designer</h2>
-          </div>
-          <div class="ms-section">
-            <div>
-            <div class="linksRight">
-              <a href="portfolio.html"><p1>portfolio</p1></a>
-              <br>
-            <a href="contact.html"><p1>contact</p1></a>
-            <br>
-          <a href="more.html"><p1>more</p1></a>
-      </div>
-        </div>
-      </div>
-      </div>
-      <script>
-      $(document).ready(function() {
-        $('#multiscroll').multiscroll({
-          verticalCentered : false,
-          scrollingSpeed: 700,
-          sectionsColor: ['#FFFFFF', '#000000'],
-          touchSensitivity: 7,
-          anchors: ['firstPage', 'secondPage'],
-        //
-		    //     afterLoad: function(anchorLink, index){
-        //       if(anchorLink == 'secondPage'){
-        //         window.location.replace("portfolio.html");
-        //       }
-        });
-      });
-</script>
+      <canvas style="position:fixed"></canvas>
+      <div class="homepageAboutBlurb">
+        <div style="position:relative;"><h1>Arthur Wilson</h1></div>
+        <div style="position:relative;"><h1>click to start</h1></div>
+        <div style="position:relative;"><p1>Audio artist, programmer and interaction designer.</p1></div>
+        <div style="position:relative;"><p1>Fixed, performable and interactive audio works.</p1></div>
+        <div style="position:relative;"><p1>Software, installations and live performances.</p1></div>
+        <div style="position:relative;"><p1>BA(Hons) Creative Music Technology, Falmouth University</p1></div>
+        <div style="position:relative;"><p1>MA Information Experience Design, Royal College of Art</p1></div>
+    </div>
+    <div style="position: absolute; top:1000px">the</div>
     </body>
 </html>
